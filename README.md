@@ -23,7 +23,7 @@ HTTP Response Code: 201
 ```
 ```json
 {
-   "id" : 589d1a94f0gh201275fbe169,
+   "id" : "589d1a94f0gh201275fbe169",
    "name" : "John Smith",
    "address" : "123 Main St",
    "city" : "San Francisco",
@@ -47,7 +47,7 @@ HTTP Response Code: 200
 ```
 ```json
 {
-   "id" : 589d1a94f0gh201275fbe169,
+   "id" : "589d1a94f0gh201275fbe169",
    "name" : "John Smith",
    "address" : "123 Main St",
    "city" : "San Francisco",
@@ -70,12 +70,12 @@ HTTP Response Code: 202
 ```
 ```json
 {
-   "id" : 589d1a94f0gh201275fbe169,
+   "id" : "589d1a94f0gh201275fbe169",
    "name" : "John Smith",
    "address" : "1600 Amphitheatre Parkway",
    "city" : "Mountain View",
    "state" : "CA",
-   "zip" : "94043"
+   "zip" : "94043",
    "coordinate" : { 
       "lat" : 37.4220352,
      "lng" : -122.0841244
