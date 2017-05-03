@@ -3,7 +3,7 @@
 This location service has the following REST endpoints to store and retrieve locations. All the data is persisted into MongoLab.
 Google Map Api has been used to lookup coordinates of a location.
 
-###1. POST - Create New Location ( "/locations" )
+### 1. POST - Create New Location ( "/locations" )
 Request:
 ```http
 POST /locations
@@ -35,7 +35,7 @@ HTTP Response Code: 201
    }
 }
 ```
-###2. GET - Get a saved Location ( "/locations/{location_id}" )
+### 2. GET - Get a saved Location ( "/locations/{location_id}" )
 Request:
 ```http
 GET /locations/589d1a94f0gh201275fbe169
@@ -59,7 +59,7 @@ HTTP Response Code: 200
    }
 }
 ```
-###PUT - Update a Location ( "/locations/{location_id}" )
+### PUT - Update a Location ( "/locations/{location_id}" )
 Request:
 ```http
 PUT /locations/589d1a94f0gh201275fbe169
@@ -82,7 +82,7 @@ HTTP Response Code: 202
    }
 }
 ```
-##4. DELETE - Delete a saved Location ( "DELETE /locations/{location_id}" )
+### 4. DELETE - Delete a saved Location ( "DELETE /locations/{location_id}" )
 Request:
 ```http
 DELETE  /locations/589d1a94f0gh201275fbe169
