@@ -59,7 +59,7 @@ HTTP Response Code: 200
    }
 }
 ```
-### PUT - Update a Location ( "/locations/{location_id}" )
+### 3. PUT - Update a Location ( "/locations/{location_id}" )
 Request:
 ```http
 PUT /locations/589d1a94f0gh201275fbe169
